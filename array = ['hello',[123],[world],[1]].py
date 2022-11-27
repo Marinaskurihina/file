@@ -1,6 +1,7 @@
-array = ['hello','123','world','1']
+a = ['hello','123','world','1']
 i = 0
-while i < len(array):
-    if len(array[i]) > 3:
-        array.pop(i)
+while i < len(a):
+    if len(a[i]) > 3:
+        a.pop(i)
     i = i + 1
+print(a)
